@@ -12,19 +12,20 @@ PAC uses the following standards for Craft-based web projects:
   - In addition, we want to follow the [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css) as much as we can.
 
 ## Packages used:
+```
+eslint
+eslint-config-airbnb-base
+eslint-plugin-import
+@babel/eslint-parser
 
-- eslint
-- eslint-config-airbnb-base
-- eslint-plugin-import
-- @babel/eslint-parser
+prettier
+eslint-config-prettier
+eslint-plugin-prettier
+@prettier/plugin-php
 
-- prettier
-- eslint-config-prettier
-- eslint-plugin-prettier
-- @prettier/plugin-php
-
-- stylelint
-- stylelint-config-recommended-scss
+stylelint
+stylelint-config-recommended-scss
+```
 
 ## NPM Package Installation
 
