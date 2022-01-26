@@ -32,8 +32,6 @@ stylelint-config-recommended-scss
 eslint:
 ```
 npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-import @babel/eslint-parser
-
-npm init @eslint/config 
 ```
 
 if also using Gulp:
