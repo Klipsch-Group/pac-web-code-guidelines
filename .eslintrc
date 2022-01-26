@@ -1,0 +1,24 @@
+{
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["airbnb-base", "prettier", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "func-names": "warn",
+    "no-process-exit": "warn",
+    "object-shorthand": "warn",
+    "class-methods-use-this": "warn",
+    "no-underscore-dangle": "warn"
+  }
+}
