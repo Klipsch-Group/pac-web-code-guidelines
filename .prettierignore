@@ -1,6 +1,14 @@
 config
 public
+web
 storage
 vendor
 node_modules
 composer.*
+cms/config
+cms/public
+cms/web
+cms/storage
+cms/vendor
+cms/composer.*
+buildchain/node_modules
