@@ -1,0 +1,6 @@
+config
+public
+storage
+vendor
+node_modules
+composer.*
