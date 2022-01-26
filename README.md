@@ -9,6 +9,7 @@ PAC uses the following standards for Craft-based web projects:
   - We will follow the [Airbnb Javascript Style Guide](https://airbnb.io/javascript/).
 - CSS / SCSS
   - We will use [Stylelint's recommended shareable SCSS config](https://github.com/stylelint-scss/stylelint-config-recommended-scss)
+  - In addition, we want to follow the [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css) as much as we can.
 
 ## Packages used:
 
